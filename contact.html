@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar">
+        <div class="nav-bar">
+            <h1>Nostra</h1>
+
+            <!-- Menu icon -->
+            <div class="menu" id="menu-icon">
+                <i class="fa-solid fa-bars" class="menu" style="color: #000205;"></i>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">New Arrival</a></li>
+                <li><a href="index.html">Most Wanted</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <!-- <li><a href="contact.html">Contact Us</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- side navbar-menu -->
+    <section id="sidenav">
+        <div class="menu-close" id="menu-close">
+            <p>X</p>
+        </div>
+        <ul id="list-close">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">New Arrival</a></li>
+            <li><a href="index.html">Most Wanted</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <!-- <li><a href="contact.html">Contact Us</a></li> -->
+        </ul>
+    </section>
+    <!-- contact us -->
+    <section>
+        <div class="contactus">
+            <form action="">
+                <table>
+                    <h1 style="color: white;">Contact Us</h1>
+                    <tr>
+                        <td><label for="">Name:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="nameerror">Name must contains letter</span></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="emailerror">Enter valid Email Id</span></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Message:</label></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="" id="message" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><span class="messageerror">Add Message</span></td>
+                    </tr>
+                    <tr>
+                        <td><button id="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- letter -->
+    <section class="news-letter">
+        <div class="news-letter__content">
+            <h1>Join our News Letter</h1>
+            <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        </div>
+        <div class="news-letter__box"></div>
+        <div class="news-letter__button">
+            <button>Subscribe <i class="fa-solid fa-arrow-right" style="color: white;"></i></button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <h1>Nostra</h1>
+            <p>Nostra is a leading online fashion destination, offering a curated collection of the latest trends in
+                clothing and accessories. We are committed to providing our customers with high-quality products and
+                exceptional customer service.</p>
+            <div class="footer-container__links">
+                <p>Quick Links :</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">New Arrival</a></li>
+                    <li><a href="index.html">Most Wanted</a></li>
+                    <li><a href="collection.html">Collections</a></li>
+                    <!-- <li><a href="contact.html">Contact Us</a></li> -->
+                </ul>
+            </div>
+
+            <div class="footer-cotainer__logo">
+                <div class="logo1">
+                    <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+                </div>
+                <div class="logo2">
+                    <i class="fa-brands fa-square-whatsapp" style="color: #fcfcfc;"></i>
+                </div>
+                <div class="logo3">
+                    <i class="fa-brands fa-square-x-twitter" style="color: #fafcff;"></i>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>Nostra</p>
+            <p>&copy; 2024 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- linking js file -->
+    <script src="contact.js"></script>
+</body>
+
+</html>
